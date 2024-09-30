@@ -1,0 +1,346 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navigations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 2% 1%;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    color: white;
+}
+
+.hero{
+    position: absolute;
+    margin-left: -70vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+
+}
+.hero span{
+    color: rgb(236, 89, 35);
+    font-weight: 900;
+    font-size: larger;
+}
+.navi{
+    display:flex;
+    text-decoration: none;
+    margin-left: 15vw;
+    margin-top: 1%;
+}
+@media (min-width:992px) and (max-width:1024) {
+    
+
+   
+    .navi{
+        display: none;
+    }
+}
+
+.navi ul{
+    display: flex;
+    gap: 7vw;
+    text-decoration: none;
+}
+.navi ul a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.navi ul a:hover{
+    color: black;
+    border-bottom: 2px solid rgb(236, 89, 35) ;
+}
+.navi ul button{
+    padding: 1.5% 4%;
+    background-color: rgb(236, 89, 35);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    border-bottom: none;
+    margin-top: -1%;
+}
+.navi ul button:hover{
+    color: rgb(236, 89, 35);
+    background-color: white;
+    border: 1.5px solid rgb(236, 89, 35);
+    border-bottom: none;
+}
+.firstbody{
+    width: 100%;
+    height: 60%;
+}
+.firstbody .homepix{
+    margin-top: 6px;
+}
+.firstbody .homepix img{
+    width:100%;
+    height: 64vh;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.firstbody .cappings{
+    position: absolute;
+    margin-top: -45vh;
+    width: 60%;
+   margin-left: 25%;
+}
+.firstbody .cappings h3{
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7vw;
+}
+.firstbody .cappings h6{
+    font-size: 30px;
+    color:rgb(236, 89, 35) ;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7vw;
+}
+.firstbody .cappings img{
+    position: absolute;
+    margin-left: -18vw;
+    border-radius: 50px;
+    border: none;
+    margin-top: -8vh;
+    width: 40%;
+    
+}
+.firstbody .cappings button{
+    padding: 12px 25px;
+    color: rgb(236, 89, 35);
+    background-color:white ;
+    border: none;
+    border-radius: 12px;
+    margin-left: 25%;
+    margin-top: 12px;
+}
+.firstbody .cappings button:hover{
+    color:white  ;
+    background-color:rgb(236, 89, 35);
+    border: 2px solid white;
+}
+.bigcap{
+    height: 100%;
+    margin-top: -5vh;
+    background-color: rgb(233, 219, 233);
+   
+}
+.secondbody{
+    height: 15vh;
+    width: 60%;
+    background-color:rgb(236, 89, 35) ;
+    border: 1px solid white;
+    margin-left: 18%;
+    margin-top: -6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 9px;
+}
+.secondbody div{
+    margin-left: 5vw;
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.children{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.children img{
+    width: 30%;
+    height: 30%;
+    margin-top: 19vh;
+    border: none;
+    border-radius: 12px;
+}
+.secondpix h5{
+    color:rgb(236, 89, 35) ;
+    font-weight: 700;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13vh;
+    position: absolute;
+    margin-left: 46%;
+}
+.children p{
+    width: 50%;
+    margin-left: 9vw;
+    margin-top: 13vh;
+    line-height: 32px;
+}
+.cappings2{
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    background-color: white;
+    gap: 10px;
+    margin-top: 25px;
+    margin-left: 12px;
+}
+.cappings2 div{
+    border: 2px solid rgb(236, 89, 35);
+    border-radius: 10px;
+    line-height: 25px;
+    padding: 12px 12px;
+    width: 40%;
+}
+.cappings p{
+    padding: 6px 10px;
+}
+.cappings2 div img{
+    width: 7vw;
+    height: 9vh;
+    margin-left: 40%;
+    background-color: rgb(236, 89, 35);
+    border-radius: 50%;
+    padding: 6px 10px;
+}
+.cappings2 .vision1 h4{
+    margin-left: 40%;
+}
+.thirdbody{
+    background-color: rgb(5, 5, 71);
+    margin-top: 5vh;
+}
+.thirdbody h4{
+    color:rgb(236, 89, 35) ;
+    font-size: x-large;
+    padding-top: 6vh;
+    margin-left: 3vw;
+    padding-bottom: 3vh;
+
+}
+.thirdbody a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15%;
+    padding-bottom: 3vh;
+    font-size: larger;
+}
+.thirdbody a:hover{
+    border-bottom: 2px solid rgb(236, 89, 35)  ;
+}
+.bodied11{
+    display: flex;
+    justify-content: center;
+
+}
+.bodied11 p{
+    width: 40%;
+    line-height: 7vh;
+    color: white;
+    margin-top: 10vh;
+    position: absolute;
+    margin-left: -30vw;
+    height: 30vh;
+}
+.bodied11 img{
+    width: 20%;
+    margin-left: 50%;
+    border: none;
+    border-radius: 12px;
+    margin-top: 7vh;
+    
+}
+.contact{
+    background-color: black;
+    padding-top: 4vh;
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+.contact h4{
+    color:rgb(236, 89, 35) ;
+    position: absolute;
+    margin-left: -20vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 8vh;
+}
+.summer p{
+    margin-left: 27%;
+}
+form{
+    width: 100%;
+    background-color: maroon;
+    box-shadow: 7px 7px 7px orange;
+    color: white;
+    padding: 16px 16px;
+    border-radius: 12px;
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+form div{
+    padding: 12px 12px;
+    
+}
+form p{
+    color: maroon;
+}
+form div input{
+    width: 60%;
+    
+}
+form .user{
+    margin-left: 10%;
+}
+form h3{
+    margin-left: 25%;
+}
+.btnn{
+   margin-left: 30%;
+   padding: 12px 25px;
+   color: maroon;
+   background-color: white;
+   font-size: medium;
+   border-radius: 12px;
+}
+.btnn:hover{
+    color: white;
+    opacity: 50;
+    background-color: orangered;
+}
+
+.quicklink{
+    position: absolute;
+    margin-top: 13vh;
+    margin-left: -19vw;
+}
+.quicklink a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 12px;
+}
+.quicklink a:hover{
+    color: orangered;
+}
+footer{
+    padding-top: 36px;
+    height: 20%;
+    
+    color: white;
+    background-color: black;
+}
+.foot{
+    margin-left: 40%;
+}
