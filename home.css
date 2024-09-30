@@ -35,13 +35,103 @@
     margin-left: 15vw;
     margin-top: 1%;
 }
-@media (min-width:992px) and (max-width:1024) {
-    
-
+.imaage{
+    display: none;
+}
+@media (min-width:430px) and (max-width:640px) {
    
-    .navi{
+   .container{
+    width: 100%;
+   } .navigations{
+        width: 100%;
+        padding-top: 25px;
+    }
+    .hero{
+        margin-top: -15px;
+        font-size: smaller;
+        margin-left: -55vw;
+    }
+    .imaage{
+        margin-top: -15px;
+        display: block;
+        position: absolute;
+    }
+
+   .navi img{
+    margin-left: 37vw;
+    width: 4vw;
+    height: 3vh;
+    margin-top: -1.7vh;
+    
+   }
+    .navi ul{
         display: none;
     }
+    .navi ul a{
+        display: none;
+    }
+    .navi ul button{
+        display: none;
+    }
+    .firstbody .cappings h3{
+        
+        margin-top: -50%;
+        width: 100%;
+
+    }
+    .firstbody .cappings .btn1{
+        margin-left: 6vw;
+        position: absolute;
+    }
+    .bigcap{
+        width: 100%;
+        margin-left: vw;
+        padding-left: -12px;
+       
+    }
+    .secondpix .over{
+        
+        margin-left: -10%;
+        
+    }
+    .secondpix .over1{
+        margin-top: -20%;
+        margin-left: -10%;
+    }
+    
+    .secondpix .children{
+        display: block;
+    }
+   
+    .secondpix .children img{
+        width: 80%;
+       margin-left: 9%;
+        
+    }
+    .secondpix .children p{
+        margin-top: -3vh;
+        height: 20%;
+        margin-left: 6%;
+        width: 90%;
+    }
+  .cappings2{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    
+    
+  }
+  .cappings div{
+    width: 95%;
+  }
+  .vision1 img{
+    width: 50vw;
+    height: 15vh;
+  }
+  .thirdbody{
+    display: none;
+  }
+ 
 }
 
 .navi ul{
@@ -136,12 +226,14 @@
     background-color: rgb(233, 219, 233);
    
 }
+
 .secondbody{
     height: 15vh;
-    width: 60%;
+    width: 100%;
+
     background-color:rgb(236, 89, 35) ;
     border: 1px solid white;
-    margin-left: 18%;
+    
     margin-top: -6vh;
     display: flex;
     justify-content: center;
@@ -190,24 +282,25 @@
     display: flex;
     justify-content: center;
     align-content: baseline;
-    background-color: white;
+    
     gap: 10px;
     margin-top: 25px;
     margin-left: 12px;
 }
 .cappings2 div{
+    background-color: white;
     border: 2px solid rgb(236, 89, 35);
     border-radius: 10px;
     line-height: 25px;
     padding: 12px 12px;
-    width: 40%;
+    width: 100%;
 }
 .cappings p{
     padding: 6px 10px;
 }
 .cappings2 div img{
-    width: 7vw;
-    height: 9vh;
+    width: 5vw;
+    height: 7vh;
     margin-left: 40%;
     background-color: rgb(236, 89, 35);
     border-radius: 50%;
