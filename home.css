@@ -372,31 +372,65 @@
 .summer p{
     margin-left: 27%;
 }
-.quicklink form{
-    width: 100%;
+.quicklink{
+    position: relative;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+    background-color: black;
+    color: grey;
+    
+}
+.bdf{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: -60vw;
+    width: 30%;
+}
+.quicklink .kweek{
+    position: absolute;
+    width: 30%;
     background-color: maroon;
     box-shadow: 7px 7px 7px orange;
     color: white;
     padding: 16px 16px;
     border-radius: 12px;
-    margin-left: 15vw;
-    margin-top: 5vh;
+    margin-left: 55vw;
+    margin-top: 38vh;
 }
-.quicklink form div{
+.contactt{
+    width: 25%;
+    margin-top: 10vh;
+    margin-left: 25vw;
+}
+.telly{
+    margin-top: 15vh;
+    margin-left: 9vw;
+    margin-bottom: 12px;
+}
+.quicklink .kweek div{
     padding: 12px 12px;
     
 }
-.quicklink form p{
+.copy{
+    margin-top: 35vh;
+    padding-top: 38px;
+    padding-bottom: 25px;
+    position: absolute;
+}
+.quicklink .kweek p{
     color: maroon;
 }
-.quicklink form div input{
+.quicklink .kweek div input{
     width: 60%;
     
 }
-.quicklink form .user{
-    margin-left: 10%;
+.quicklink .kweek .user{
+    margin-left: 10%; 
 }
-.quicklink form h3{
+.quicklink .kweek h3{
     margin-left: 25%;
 }
 .btnn{
@@ -413,11 +447,7 @@
     background-color: orangered;
 }
 
-.quicklink{
-    position: absolute;
-    margin-top: 13vh;
-    margin-left: -19vw;
-}
+
 .quicklink a{
     text-decoration: none;
     color: white;
@@ -427,16 +457,8 @@
 .quicklink a:hover{
     color: orangered;
 }
-footer{
-    padding-top: 36px;
-    height: 20%;
-    
-    color: white;
-    background-color: black;
-}
-.foot{
-    margin-left: 40%;
-}
+
+
 /*about us*/
 .frint{
     height: 40%;
